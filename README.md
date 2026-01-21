@@ -18,15 +18,27 @@ Best Model: Random Forest Classifier
 
 ------------------------------------------------
 
+
+
+
 Performance Comparison
 
 Model	             Accuracy	   Precision	  Recall	  F1-Score
 Random Forest	      93.81%	     0.873	     0.899    	0.883
 Neural Network	    69.68%	       -	         -       	-
 
+
+
+
+
 ------------------------------------------------
 
+
+
 Activity Classification Performance
+
+
+
 
 ActivityType    	Precision     	Recall     	F1-Score  	 Support
 P2P               	99.9%	         99.9%      	99.9%      	9,704
@@ -39,7 +51,12 @@ Video-Streaming	    75.8%	         89.2%	      82.0%	      1,950
 Email	              75.4%	         85.3%	      80.1%	      1,228
 
 
+
+
 --------------------------------------
+
+
+
 Dataset Information
 
 
