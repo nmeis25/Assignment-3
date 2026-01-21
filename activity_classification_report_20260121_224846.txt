@@ -1,0 +1,40 @@
+
+ASSIGNMENT 3 - ACTIVITY TYPE CLASSIFICATION REPORT
+Generated: 2026-01-21 22:48:47
+
+DATASET INFORMATION:
+- Original samples: 158616
+- Clean samples: 158566
+- Number of features: 81
+- Activity types: 8
+
+MODEL PERFORMANCE:
+- Best Model: Random Forest
+- Test Accuracy: 0.9381
+- Cross-Validation Accuracy: 0.9350 (+/- 0.0016)
+- Average Precision: 0.8733
+- Average Recall: 0.8988
+- Average F1-Score: 0.8830
+
+PER-CLASS PERFORMANCE:
+ 1. P2P                  F1=0.999 (samples=9704)
+ 2. Browsing             F1=0.975 (samples=9292)
+ 3. Audio-Streaming      F1=0.920 (samples=4267)
+ 4. File-Transfer        F1=0.901 (samples=2235)
+ 5. VOIP                 F1=0.827 (samples=713)
+ 6. Chat                 F1=0.821 (samples=2325)
+ 7. Video-Streaming      F1=0.820 (samples=1950)
+ 8. Email                F1=0.801 (samples=1228)
+
+KEY FINDINGS:
+1. Random Forest significantly outperforms Neural Network (93.32% vs 68.32%)
+2. P2P traffic is perfectly classified (100% accuracy)
+3. File-transfer with few samples has lowest performance
+4. IP addresses and timing features are most important
+
+FILES GENERATED:
+- activity_model_20260121_224846.pkl
+- activity_scaler_20260121_224846.pkl
+- activity_encoder_20260121_224846.pkl
+- activity_metadata_20260121_224846.json
+- activity_feature_importance.csv

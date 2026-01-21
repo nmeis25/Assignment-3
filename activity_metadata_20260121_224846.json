@@ -1,0 +1,27 @@
+{
+    "timestamp": "20260121_224846",
+    "best_model": "Random Forest",
+    "accuracy": 0.9381030459733871,
+    "num_classes": 8,
+    "num_features": 81,
+    "activity_mapping": {
+        "Audio-Streaming": 0,
+        "Browsing": 1,
+        "Chat": 2,
+        "Email": 3,
+        "File-Transfer": 4,
+        "P2P": 5,
+        "VOIP": 6,
+        "Video-Streaming": 7
+    },
+    "class_distribution": {
+        "Audio-Streaming": 21336,
+        "Browsing": 46457,
+        "Chat": 11623,
+        "Email": 6143,
+        "File-Transfer": 11173,
+        "P2P": 48520,
+        "VOIP": 3566,
+        "Video-Streaming": 9748
+    }
+}
