@@ -247,13 +247,13 @@ Run assignment3.py
 Load Model
 import joblib
 
-model = joblib.load('activity_model_20260121_224846.pkl')
-scaler = joblib.load('activity_scaler_20260121_224846.pkl')
-encoder = joblib.load('activity_encoder_20260121_224846.pkl')
+- model = joblib.load('activity_model_20260121_224846.pkl')
+- scaler = joblib.load('activity_scaler_20260121_224846.pkl')
+- encoder = joblib.load('activity_encoder_20260121_224846.pkl')
 
-new_data_scaled = scaler.transform(new_data)
-predictions = model.predict(new_data_scaled)
-activity_names = encoder.inverse_transform(predictions)
+- new_data_scaled = scaler.transform(new_data)
+- predictions = model.predict(new_data_scaled)
+- activity_names = encoder.inverse_transform(predictions)
 
 
 
