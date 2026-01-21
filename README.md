@@ -17,6 +17,7 @@ Number of Activity Classes: 8
 Best Model: Random Forest Classifier
 
 ------------------------------------------------
+
 Performance Comparison
 
 Model	             Accuracy	   Precision	  Recall	  F1-Score
@@ -37,7 +38,8 @@ Chat	              89.0%	         76.3%	      82.1%	      2,325
 Video-Streaming	    75.8%	         89.2%	      82.0%	      1,950
 Email	              75.4%	         85.3%	      80.1%	      1,228
 
---------------------------------------\
+
+--------------------------------------
 Dataset Information
 
 
